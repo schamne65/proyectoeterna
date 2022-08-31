@@ -1,0 +1,87 @@
+* {
+  margin: 10px;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.body {
+  background-color: #F7ECDE;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+.seccion {
+  grid-column: span 12;
+}
+
+#videos {
+  grid-column: 2/span 11;
+  display: grid;
+  grid-template-columns: repeat(12, auto);
+  gap: 20px 10px;
+}
+
+h2 {
+  grid-column: span 11;
+}
+
+.videos {
+  position: relative;
+  grid-column: span 4;
+}
+.videos span {
+  color: white;
+  position: absolute;
+  left: 10px;
+  top: 5px;
+  max-width: 100%;
+  max-height: 100%;
+}
+.videos video {
+  max-width: 100%;
+  max-height: 100%;
+}
+.videos button {
+  text-align: center;
+}
+
+@media screen and (max-width: 750px) {
+  .videos {
+    grid-column: span 12;
+  }
+}
+
+header {
+  grid-column: span 12;
+}
+header h1 {
+  text-align: center;
+}
+header ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+}
+header li {
+  padding: 0 10px;
+}
+header a {
+  text-decoration: none;
+}
+
+.divNav {
+  text-align: center;
+  background-color: #E9DAC1;
+}
+
+#lospoemas {
+  grid-column: span 12;
+  display: grid;
+  grid-template-columns: repeat(12, auto);
+}
+#lospoemas .texto {
+  border: 2px solid;
+  grid-column: span 4;
+}
+
+/*# sourceMappingURL=style.css.map */

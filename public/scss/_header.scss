@@ -1,0 +1,26 @@
+header{
+   
+    grid-column: span 12;
+    
+     h1{
+             text-align: center;
+     }
+      ul{
+        display: flex;
+       list-style: none;
+       justify-content: center;
+        
+      }
+      li{
+        padding: 0 10px;
+      }
+      a{
+        text-decoration: none;
+      }
+}
+.divNav{
+    text-align: center;
+    background-color:#E9DAC1 ;
+  
+   }
+
