@@ -84,4 +84,10 @@ header a {
   grid-column: span 4;
 }
 
+@media screen and (max-width: 750px) {
+  .texto {
+    grid-column: span 12;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
