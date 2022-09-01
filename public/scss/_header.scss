@@ -23,4 +23,36 @@ header{
     background-color:#E9DAC1 ;
   
    }
+.headerResponsive{
+  display: none;
+}
+
+
+
+@mixin media {
+  @media screen and (max-width: 750px) {
+  display: none;
+     
+  }
+     
+}
+.header{
+ @include media()
+ 
+
+ 
+}
+
+@mixin reponsive {
+  @media screen and (max-width: 750px) {
+  display: flex;
+ align-items:center;
+ justify-content: center;
+
+}
+     
+  }
+  .headerResponsive{
+    @include reponsive()
+  }
 

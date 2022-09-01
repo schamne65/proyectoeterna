@@ -76,6 +76,24 @@ header a {
   background-color: #E9DAC1;
 }
 
+.headerResponsive {
+  display: none;
+}
+
+@media screen and (max-width: 750px) {
+  .header {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .headerResponsive {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
 #lospoemas {
   grid-column: span 12;
   display: grid;

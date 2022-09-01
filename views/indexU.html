@@ -10,11 +10,28 @@
 <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&family=Roboto+Slab:wght@200;400;600&display=swap" rel="stylesheet">
   
     <link rel="stylesheet" href="../public/css/style.css">
-    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 
 </head>
 <body class="body">
-    <header>
+  <HEader class="headerResponsive">
+    <div>
+        <div class="divheader__logo">
+           <h2 class="h2">Eterna Fonte</h2>
+          </div>
+    </div>
+<div class="navbar-toggler">
+    <button class="btn btn-secondary dropdown " type="button" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">
+      <i  class="fa-solid fa-bars"></i></button>
+    <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+      <li><button class="dropdown-item" type="button"><a href="#fuenteEterna">Inicio</a></button></li>
+      <li><button class="dropdown-item" type="button"><a href="#lospoemas">Los poemas</a></button></li>
+      <li><button class="dropdown-item" type="button"><a href="#videos">Poemas hecho canción</a></button></li>
+      <li><button class="dropdown-item" type="button"><a href="#acordes">Acordes</a></button></li>
+    </ul>
+  </div>
+  </HEader>
+    <header class="header">
        <div class="logo">
         <h1>Eterna Fonte</h1>
        </div>
@@ -29,6 +46,7 @@
         </nav>
        </div>
     </header>
+
   <section class="seccion">  
     <article id="fuenteEterna">
         <h2>Fuente Eterna</h2>
@@ -502,4 +520,5 @@ en el vientre de María.
 </section>  
   
 </body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </html>
