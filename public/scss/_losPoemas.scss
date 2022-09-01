@@ -2,17 +2,25 @@
     grid-column: span 12;
     display: grid;
     grid-template-columns: repeat(12, auto);
-    .texto{
-        border: 2px solid;
-        grid-column: span 4;
-    }
 }
+.texto{
+    position: relative;
+    border: 2px solid;
+    grid-column: span 4;
+}
+
+
+
 @mixin media {
     @media screen and (max-width: 750px) {
+        display: grid;
        grid-column: span 12;
+       
     }
        
 }
 .texto{
    @include media()
+   
 }
+
