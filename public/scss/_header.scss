@@ -32,7 +32,7 @@ header{
 @mixin media {
   @media screen and (max-width: 750px) {
   display: none;
-     
+ 
   }
      
 }
@@ -45,10 +45,11 @@ header{
 
 @mixin reponsive {
   @media screen and (max-width: 750px) {
+    background-color:#E9DAC1; ;
   display: flex;
- align-items:center;
- justify-content: center;
-
+  justify-content: space-around;
+  
+ 
 }
      
   }
