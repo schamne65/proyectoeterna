@@ -1,9 +1,10 @@
 *{
-    margin: 10px;
+    margin: 0px;
     padding: 0;
     box-sizing: border-box;
 }
 .body{
+    margin: 20px;
     background-color: #F7ECDE;
     display: grid;
     grid-template-columns: repeat(12, 1fr);

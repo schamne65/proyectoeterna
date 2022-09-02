@@ -1,10 +1,11 @@
 * {
-  margin: 10px;
+  margin: 0px;
   padding: 0;
   box-sizing: border-box;
 }
 
 .body {
+  margin: 20px;
   background-color: #F7ECDE;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
@@ -26,6 +27,10 @@ h2 {
 }
 
 .videos {
+  background-color: aqua;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
   position: relative;
   grid-column: span 4;
   max-width: 100%;
@@ -39,12 +44,17 @@ h2 {
   max-width: 100%;
   max-height: 100%;
 }
-.videos video {
+.videos button {
+  margin: 10px;
+  align-self: center;
+  width: 50%;
+}
+
+video {
+  border: 3px solid;
+  overflow: hidden;
   max-width: 100%;
   max-height: 100%;
-}
-.videos button {
-  text-align: center;
 }
 
 @media screen and (max-width: 750px) {
@@ -95,8 +105,9 @@ header a {
 }
 
 #lospoemas {
-  grid-column: span 12;
+  grid-column: 2/span 11;
   display: grid;
+  gap: 20px 10px;
   grid-template-columns: repeat(12, auto);
 }
 

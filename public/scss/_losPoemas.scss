@@ -1,6 +1,7 @@
 #lospoemas{
-    grid-column: span 12;
+    grid-column: 2/ span 11;
     display: grid;
+    gap: 20px 10px;
     grid-template-columns: repeat(12, auto);
 }
 .texto{
