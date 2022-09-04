@@ -5,9 +5,15 @@
     grid-template-columns: repeat(12, auto);
 }
 .texto{
+    
     position: relative;
     border: 2px solid;
     grid-column: span 4;
+    h3{
+        padding: 10px;
+    }p{
+        padding: 10px;
+    }
 }
 
 

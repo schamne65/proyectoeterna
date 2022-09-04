@@ -24,8 +24,16 @@ header{
   
    }
 .headerResponsive{
+  
   display: none;
+  position: fixed;
+  grid-column: span 12;
+  width: 100%;
+  margin-top: -15px;
+  z-index: 1;
 }
+
+
 
 
 
@@ -45,9 +53,10 @@ header{
 
 @mixin reponsive {
   @media screen and (max-width: 750px) {
-    background-color:#E9DAC1; ;
+    background-color:#E9DAC1; 
   display: flex;
   justify-content: space-around;
+  grid-column: span 12;
   
  
 }
@@ -55,5 +64,9 @@ header{
   }
   .headerResponsive{
     @include reponsive()
+  }
+
+  .seccion{
+    margin-top: 40px;
   }
 

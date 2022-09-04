@@ -87,6 +87,11 @@ header a {
 
 .headerResponsive {
   display: none;
+  position: fixed;
+  grid-column: span 12;
+  width: 100%;
+  margin-top: -15px;
+  z-index: 1;
 }
 
 @media screen and (max-width: 750px) {
@@ -100,7 +105,12 @@ header a {
     background-color: #E9DAC1;
     display: flex;
     justify-content: space-around;
+    grid-column: span 12;
   }
+}
+
+.seccion {
+  margin-top: 40px;
 }
 
 #lospoemas {
@@ -114,6 +124,12 @@ header a {
   position: relative;
   border: 2px solid;
   grid-column: span 4;
+}
+.texto h3 {
+  padding: 10px;
+}
+.texto p {
+  padding: 10px;
 }
 
 @media screen and (max-width: 750px) {
@@ -137,6 +153,18 @@ header a {
 }
 .boton button:hover a {
   color: white;
+}
+
+.botonmenu #dropdownMenu2 {
+  background-color: #7D9D9C;
+  box-shadow: none;
+}
+.botonmenu i {
+  color: white;
+}
+.botonmenu a {
+  color: black;
+  text-decoration: none;
 }
 
 /*# sourceMappingURL=style.css.map */
