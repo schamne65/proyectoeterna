@@ -8,6 +8,7 @@
   margin: 20px;
   background-color: #F7ECDE;
   display: grid;
+  height: 100vh;
   grid-template-columns: repeat(12, 1fr);
 }
 
@@ -174,6 +175,11 @@ header a:hover {
   text-decoration: none;
 }
 
+.botonform button {
+  margin-top: 20px;
+  padding: 10px;
+}
+
 form {
   display: flex;
   flex-direction: column;
@@ -196,6 +202,30 @@ form textarea {
   form input, form textarea {
     width: 80%;
   }
+}
+
+footer {
+  margin-top: 10px;
+  background-color: #EDDFB3;
+  grid-column: span 12;
+}
+
+.divfooter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.divfooter i {
+  font-size: 30px;
+  padding: 20px;
+}
+
+.fa-youtube {
+  color: #c4302b;
+}
+
+.fa-facebook {
+  color: #3b5998;
 }
 
 /*# sourceMappingURL=style.css.map */

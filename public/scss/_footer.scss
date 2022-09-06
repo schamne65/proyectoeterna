@@ -1,0 +1,22 @@
+footer{
+    margin-top: 10px;
+    background-color:#EDDFB3;
+    grid-column: span 12;
+   
+}
+.divfooter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    i{
+        font-size: 30px;
+        padding: 20px;
+    }
+}
+.fa-youtube{
+    color: #c4302b;
+
+}
+.fa-facebook{
+    color: #3b5998;
+}
