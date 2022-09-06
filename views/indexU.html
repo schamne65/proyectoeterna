@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta http-eq uiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    
+    <title>Eterna Fonte</title>
+    <link rel="icon" href="../public/image/icono.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&family=Roboto+Slab:wght@200;400;600&display=swap" rel="stylesheet">
@@ -28,6 +30,7 @@
       <li><button class="dropdown-item" type="button"><a href="#lospoemas">Los poemas</a></button></li>
       <li><button class="dropdown-item" type="button"><a href="#videos">Poemas hecho canción</a></button></li>
       <li><button class="dropdown-item" type="button"><a href="#acordes">Acordes</a></button></li>
+      <li><button class="dropdown-item" type="button" ><a href="#contacto">Contacto</a></button></li>
     </ul>
   </div>
   </header>
@@ -42,6 +45,7 @@
             <li><a href="#lospoemas" >Los poemas</a></li>
             <li><a href="#videos">Poemas hecho canción</a></li>
             <li><a href="#acordes">Acordes</a></li>
+            <li><a href="#contacto">Contacto</a></li>
            </ul>
         </nav>
        </div>
@@ -66,7 +70,7 @@
             <p>
               Alma ¿que haces aquí?
               Dios mio, no mas que verte.
-              ¿y que mas tenes de mi?
+              ¿y que mas temes de mi?
               Lo que mas temo es perderte.
             </p>
             <p>
@@ -509,14 +513,32 @@ en el vientre de María.
         <span class="span">Llama de amor viva</span>
         <video src="../public/videoAudio/llama de amor viva.mp4" controls></video>
         <button><a href="../public/videoAudio/09 LLAMA DE AMOR VIVA..mp3" download=""> Descargar MP3</a></button>
-        <button><a href="../public/videoAudio/llama de amor viva.mp4" download="">descargar video</a></button>
+        <button><a href="../public/videoAudio/llama de amor viva.mp4" download="">Descargar video</a></button>
     </div>
     <div class="videos nueve">
       <span class="span">Eleva el pensamiento</span>
       <video src="../public/videoAudio/Eleva el pensamiento.mp4" controls></video>
       <button><a href="../public/videoAudio/05 Eleva el pensamiento.mp3" download="Eleva el pensamiento"> Descargar MP3</a></button>
-      <button><a href="../public/videoAudio/Eleva el pensamiento.mp4" download="">descargar video</a></button>
+      <button><a href="../public/videoAudio/Eleva el pensamiento.mp4" download="">Descargar video</a></button>
   </div>
+    </article>
+    <article id="contacto" class="form">
+      <h3>Contacto</h3>
+      <form action="">
+       
+        <label for="nombre">Nombre</label>
+        <input type="text" name="nombre" placeholder="Jose" required>
+      
+        <label for="apellido">Apellido</label>
+         <input type="text" name="apellido" placeholder="Perez" required>
+       
+        <label for="email">E-mail</label>
+        <input type="email" name="email" placeholder="ejemplo@ejemplo.com" required>
+        
+        <label for="consulta">Su consulta</label>
+        <textarea name="consulta" id="consulta" cols="30%" rows="10"></textarea>
+       <button type="submit">Enviar</button>
+      </form>
     </article>
 </section>  
   

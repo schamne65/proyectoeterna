@@ -1,0 +1,33 @@
+form{
+  
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+align-items: center;
+   input,{
+    width: 32%;
+    box-shadow: 3px 4px #C7BEA2;
+    border-radius: 4px ;
+    border: 1px solid black;
+   }
+   textarea{
+      width: 32%;
+    box-shadow: 3px 4px #C7BEA2;
+    border-radius: 4px ;
+    border: 1px solid black;
+   }
+
+   @mixin media {
+      @media screen and (max-width: 750px) {
+        width: 80%;
+         
+      }
+         
+  }
+  input,textarea{
+     @include media()
+     
+  }
+ 
+
+}
