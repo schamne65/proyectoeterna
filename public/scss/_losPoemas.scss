@@ -18,7 +18,7 @@
 }
 
 @mixin media {
-    @media screen and (max-width: 750px) {
+    @media screen and (max-width: 800px) {
        grid-column: span 6;
        
     }
@@ -31,7 +31,7 @@
 
 
 @mixin media {
-    @media screen and (max-width: 480px) {
+    @media screen and (max-width: 560px) {
         display: grid;
        grid-column: span 12;
        
