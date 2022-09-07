@@ -17,7 +17,12 @@
   grid-column: span 12;
 }
 
+#fuenteEterna {
+  padding-top: 50px;
+}
+
 #videos {
+  padding-top: 42px;
   grid-column: 2/span 11;
   display: grid;
   grid-template-columns: repeat(12, auto);
@@ -60,6 +65,12 @@ video {
 
 @media screen and (max-width: 750px) {
   .videos {
+    grid-column: span 6;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .videos {
     grid-column: span 12;
   }
 }
@@ -98,7 +109,7 @@ header a:hover {
   position: fixed;
   grid-column: span 12;
   width: 89.5%;
-  margin-top: -20px;
+  margin-top: -10px;
   z-index: 1;
 }
 
@@ -122,6 +133,7 @@ header a:hover {
 }
 
 #lospoemas {
+  padding-top: 40px;
   grid-column: 2/span 11;
   display: grid;
   gap: 20px 10px;
@@ -142,6 +154,12 @@ header a:hover {
 }
 
 @media screen and (max-width: 750px) {
+  .texto {
+    grid-column: span 6;
+  }
+}
+
+@media screen and (max-width: 480px) {
   .texto {
     display: grid;
     grid-column: span 12;
